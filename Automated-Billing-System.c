@@ -1,3 +1,22 @@
+/**
+ * @file automated_billing_system.c
+ * @brief Implements an interactive Automated Billing System.
+ *
+ * @details
+ * This program collects information about purchased items, including their
+ * names, unit prices, and quantities. It calculates the total price of each
+ * item after applying an 18% tax rate, computes the grand total, and displays
+ * the generated bill on the terminal.
+ *
+ * A copy of the bill, including the current date, time, item details, and
+ * grand total, is also written to a file named "Bill.txt".
+ *
+ * The program dynamically allocates memory to store the purchased items
+ * and releases the allocated memory before termination.
+ *
+ * @return 0 when the program terminates.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

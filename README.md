@@ -65,10 +65,6 @@ The following is an illustrative example of the bill format. The date, time, and
  Date: DD/MM/YYYY                                      Time: HH:MM:SS
 
 -------------------------------------------------------------------------
-
- The Total Bill is as follows -
-
--------------------------------------------------------------------------
  Item                 Price       Quantity     Total Price [incl. Taxes]
 -------------------------------------------------------------------------
  Notebook             50.00       2.00         118.00

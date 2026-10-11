@@ -36,39 +36,24 @@ The program calculates the total price of each item using the following formula:
 
 **1. Calculate the subtotal**
 
-\[
-\text{Subtotal} = \text{Unit Price} \times \text{Quantity}
-\]
+`Subtotal = Unit Price × Quantity`
 
 **2. Calculate the tax**
 
-\[
-\text{Tax} = \text{Subtotal} \times 0.18
-\]
+`Tax = Subtotal × 0.18`
 
 **3. Calculate the tax-inclusive item total**
 
-\[
-\text{Item Total} = \text{Subtotal} + \text{Tax}
-\]
-
-Equivalently:
-
-\[
-\text{Item Total} = \text{Unit Price} \times 1.18 \times \text{Quantity}
-\]
+`Item Total = Subtotal + Tax
+            = Unit Price × 1.18 × Quantity`
 
 **4. Calculate the grand total**
 
-\[
-\text{Grand Total} = \sum_{i=1}^{n} \text{Item Total}_i
-\]
-
-Here, \(n\) represents the number of items entered into the bill.
+`Grand Total = Sum of all tax-inclusive item totals`
 
 > **Note:** The program uses a fixed 18% tax rate. This is the rate implemented in the source code and is not dynamically determined from tax rules or item categories.
 
-## 💻 Sample Output
+## Sample Output
 
 The following is an illustrative example of the bill format. The date, time, and calculated amounts will depend on the user's input and system clock.
 
@@ -138,5 +123,3 @@ This project provides practical experience with fundamental C programming concep
 **Anish Moodi**
 
 GitHub: https://github.com/anmo-02
-
-Replace the placeholder author details with your own information.

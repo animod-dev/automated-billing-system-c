@@ -66,10 +66,6 @@ The following is an illustrative example of the bill format. The date, time, and
 
 -------------------------------------------------------------------------
 
- Item Name: [Entered by User]
-
--------------------------------------------------------------------------
-
  The Total Bill is as follows -
 
 -------------------------------------------------------------------------

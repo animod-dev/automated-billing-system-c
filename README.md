@@ -3,14 +3,14 @@
 A console-based **Automated Billing System** developed using the C programming language. The program collects purchased item details, calculates item-wise totals after applying an 18% tax rate, computes the grand total, and generates a formatted bill on the terminal and in a text file.
 
 ## Contents
-- [Project Overview] (#project-overview)
-- [Features] (#features)
-- [Technologies Used] (#technologies-used)
-- [Billing Logic] (#billing-logic)
-- [Sample Output] (#sample-output)
-- [Output File] (#output-file)
-- [Concepts Demonstrated] (#concepts-demonstrated)
-- [Author] (#author)
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Billing Logic](#billing-logic)
+- [Sample Output](#sample-output)
+- [Output File](#output-file)
+- [Concepts Demonstrated](#concepts-demonstrated)
+- [Author](#author)
 
 ## Project Overview
 
